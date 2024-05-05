@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_font_size.dart';
+import 'package:gojek_ui_clone/ui/widgets/card_goclub.dart';
+import 'package:gojek_ui_clone/ui/widgets/card_info.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_button_icon.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_card.dart';
+import 'package:gojek_ui_clone/ui/widgets/nav_bottom.dart';
+import 'package:gojek_ui_clone/ui/widgets/scroll_brush.dart';
+import 'package:gojek_ui_clone/ui/widgets/subtitle.dart';
 
 class Beranda extends StatefulWidget {
   const Beranda({Key? key}) : super(key: key);
