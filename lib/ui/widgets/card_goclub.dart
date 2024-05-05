@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:indojek/common/my_colors.dart';
-import 'package:indojek/common/my_style.dart';
-import 'package:indojek/ui/widgets/custom_card.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_style.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_card.dart';
 
 class CardGoClub extends StatelessWidget {
-  const CardGoClub({ Key? key }) : super(key: key);
+  const CardGoClub({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,35 +28,26 @@ class CardGoClub extends StatelessWidget {
                     ),
                     SizedBox(width: 5),
                     Expanded(
-                      child: Text(
-                        "IndoClub",
-                        style: MyStyle.textTitleBlack
-                      ),
+                      child: Text("IndoClub", style: MyStyle.textTitleBlack),
                     ),
                   ],
                 ),
                 SizedBox(height: 3),
-                Text(
-                  "Program loyalitasnya IndoJek",
-                  style: MyStyle.textParagraphBlack
-                ),
+                Text("Program loyalitasnya IndoJek",
+                    style: MyStyle.textParagraphBlack),
               ],
             ),
           ),
           SizedBox(width: 10),
           CustomCard(
-            onTap: () {},
-            padding: EdgeInsets.zero,
-            bgColor: MyColors.green,
-            shadow: false,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-              child: Text(
-                "Ikutan Gratis",
-                style: MyStyle.textButtonWhite
-              ),
-            )
-          ),
+              onTap: () {},
+              padding: EdgeInsets.zero,
+              bgColor: MyColors.green,
+              shadow: false,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                child: Text("Ikutan Gratis", style: MyStyle.textButtonWhite),
+              )),
         ],
       ),
     );

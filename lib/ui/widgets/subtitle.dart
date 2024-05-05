@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:indojek/common/my_colors.dart';
-import 'package:indojek/common/my_font_size.dart';
-import 'package:indojek/common/my_style.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_font_size.dart';
+import 'package:gojek_ui_clone/common/my_style.dart';
 
 class Subtitle extends StatelessWidget {
   final String? iconPath;
@@ -52,10 +52,9 @@ class Subtitle extends StatelessWidget {
                     Text(
                       subtitle,
                       style: TextStyle(
-                        color: MyColors.blackText,
-                        fontSize: MyFontSize.large3,
-                        fontWeight: FontWeight.bold
-                      ),
+                          color: MyColors.blackText,
+                          fontSize: MyFontSize.large3,
+                          fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),

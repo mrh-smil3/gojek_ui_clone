@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:indojek/common/my_colors.dart';
-import 'package:indojek/common/my_style.dart';
-import 'package:indojek/ui/widgets/custom_card.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_style.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_card.dart';
 
 class CardInfo extends StatelessWidget {
-
   final String imageUrl;
   final String title;
   final String caption;
 
-  const CardInfo({ Key? key, required this.imageUrl, required this.title, required this.caption }) : super(key: key);
+  const CardInfo(
+      {Key? key,
+      required this.imageUrl,
+      required this.title,
+      required this.caption})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +28,7 @@ class CardInfo extends StatelessWidget {
           children: [
             Expanded(
               child: ClipRRect(
-                borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(25)
-                ),
+                borderRadius: BorderRadius.vertical(top: Radius.circular(25)),
                 child: Image.network(
                   imageUrl,
                   fit: BoxFit.cover,
@@ -38,15 +40,9 @@ class CardInfo extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
-                  Text(
-                    title,
-                    style: MyStyle.textTitleBlack
-                  ),
+                  Text(title, style: MyStyle.textTitleBlack),
                   SizedBox(height: 10),
-                  Text(
-                    caption,
-                    style: MyStyle.textParagraphBlack
-                  ),
+                  Text(caption, style: MyStyle.textParagraphBlack),
                 ],
               ),
             ),

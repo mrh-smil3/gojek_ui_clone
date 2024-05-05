@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:indojek/common/my_colors.dart';
-import 'package:indojek/common/my_font_size.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_font_size.dart';
 
 class CustomButtonIcon extends StatelessWidget {
   final void action;

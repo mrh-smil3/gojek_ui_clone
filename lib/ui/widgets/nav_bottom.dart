@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:indojek/common/my_colors.dart';
-import 'package:indojek/common/my_style.dart';
-import 'package:indojek/ui/widgets/custom_button_icon.dart';
-import 'package:indojek/ui/widgets/custom_card.dart';
+import 'package:gojek_ui_clone/common/my_colors.dart';
+import 'package:gojek_ui_clone/common/my_style.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_button_icon.dart';
+import 'package:gojek_ui_clone/ui/widgets/custom_card.dart';
 
 class NavBottom extends StatelessWidget {
   final bool isCollapse;
@@ -327,7 +327,9 @@ class NavBottom extends StatelessWidget {
                       SizedBox(width: 5),
                     ],
                   ),
-                  SizedBox(height: 20,)
+                  SizedBox(
+                    height: 20,
+                  )
                 ],
               ),
             ),
