@@ -201,7 +201,7 @@ class _BerandaState extends State<Beranda> {
                 ],
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(5),
                 height: 90,
                 width: 150,
                 decoration: BoxDecoration(
@@ -223,7 +223,7 @@ class _BerandaState extends State<Beranda> {
                         ),
                       ],
                     ),
-                    SizedBox(height: 8),
+                    SizedBox(height: 5),
                     Text(
                       "Saldo masih kosong",
                       style: TextStyle(
